@@ -10,8 +10,8 @@
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *current;
-	unsigned int n; /* number of nodes */
-
+	unsigned int n;
+        /* number of nodes */
 	current = h;
 	n = 0;
 	while (current != NULL)
